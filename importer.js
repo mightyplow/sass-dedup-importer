@@ -3,17 +3,17 @@
  * It ensures that multiple import statements in sass/scss files get only imported once.
  */
 
-const readFile = require('fs').readFile;
+'use strict';
+
+var readFile = require('fs').readFile;
 
 module.exports = (function () {
     // storage of already imported files
-    const $imports = [];
+    var $imports = [];
 
-    /*
-        If file was already imported, return an empty string.
-        Otherwise return the filename to node-sass to let it be imported.
-     */
-    return function (url, prev, done) {
+    // If file was already imported, return an empty string.
+    // Otherwise return the filename to node-sass to let it be imported.
+    return function (url) {
         if ($imports.indexOf(url) < 0) {
             $imports.push(url);
 
