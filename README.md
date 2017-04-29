@@ -6,7 +6,7 @@ It ensures that multiple import statements in sass/scss files get only imported 
 ## Installation
 
 ```
-    npm i -D @mightyplow/sass-dedup-importer
+npm i -D @mightyplow/sass-dedup-importer
 ```
 
 ### Usage
