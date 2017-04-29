@@ -1,9 +1,13 @@
 {
   "name": "@mightyplow/sass-dedup-importer",
   "version": "1.0.0",
-  "description": "An importer function which can be used for node-sass. It ensures that multiple import statements in sass/scss files get only imported once.",
+  "description": "An importer function which can be used with node-sass. It ensures that multiple import statements in sass/scss files get only imported once.",
   "main": "importer.js",
   "keywords": ["sass", "import", "deduplicate"],
   "author": "mightyplow@gmail.com",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mightyplow/sass-dedup-importer.git"
+  }
 }
