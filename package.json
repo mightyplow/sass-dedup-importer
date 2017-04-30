@@ -1,6 +1,6 @@
 {
   "name": "@mightyplow/sass-dedup-importer",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "An importer function which can be used with node-sass. It ensures that multiple import statements in sass/scss files get only imported once.",
   "main": "importer.js",
   "keywords": ["sass", "import", "deduplicate"],

@@ -10,6 +10,10 @@ npm i -D @mightyplow/sass-dedup-importer
 ```
 
 ### Usage
+### Note
+The function only takes the filenames into account, since for now I cannot resolve the original
+paths in a reliable way. So make sure, the filenames are unique.
+
 #### cli
 ```
 node-sass --importer node_modules/@mightyplow/sass-dedup-importer/importer.js ...
