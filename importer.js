@@ -6,7 +6,7 @@
 'use strict';
 
 var readFile = require('fs').readFile;
-var path = require('path').basename;
+var basename = require('path').basename;
 
 module.exports = (function () {
     // storage of already imported files
